@@ -1,0 +1,12 @@
+.text-center { text-align: center }
+.text-right { text-align: right }
+.text-left { text-align: left }
+
+.mb-sm { margin-bottom: .5rem }
+.mb-md { margin-bottom: 1rem }
+.mb-lg { margin-bottom: 1.5rem }
+.mb-xl { margin-bottom: 2rem }
+
+$phone: "(min-width: 768px)";
+$tablet: "(min-width: 980px)";
+$computer: "(min-width: 1200px)";

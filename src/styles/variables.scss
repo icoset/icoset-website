@@ -1,0 +1,30 @@
+$color-grey-200: #A4A4B3;
+$color-grey-900: #2a2c36;
+$color-grey-10: lighten($color-grey-200, 30%);
+$color-grey-25: lighten($color-grey-200, 25%);
+$color-grey-50: lighten($color-grey-200, 20%);
+$color-grey-75: lighten($color-grey-200, 15%);
+$color-grey-100: lighten($color-grey-200, 10%);
+$color-grey-300: lighten($color-grey-900, 30%);
+$color-grey-400: lighten($color-grey-900, 25%);
+$color-grey-500: lighten($color-grey-900, 20%);
+$color-grey-600: lighten($color-grey-900, 15%);
+$color-grey-700: lighten($color-grey-900, 10%);
+$color-grey-800: lighten($color-grey-900, 5%);
+$color-grey-925: darken($color-grey-900, 4%);
+$color-grey-950: darken($color-grey-900, 8%);
+$color-grey-975: darken($color-grey-900, 12%);
+
+$color-primary: #526c9d;
+$color-success: #51ad70;
+$color-danger: #C1666B;
+$color-warning: #D4B483;
+
+$base-font-family: 'museo-sans-rounded', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+$base-font-size: 16px;
+$base-font-color: $color-grey-700;
+$base-font-weight: 300;
+$base-line-height: 1.4;
+
+$base-box-shadow: 0 2.3px 3.3px rgba(#000, .25);
+$base-border-radius: 5px;

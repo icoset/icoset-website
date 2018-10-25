@@ -1,0 +1,54 @@
+@import "variables";
+@import "reboot";
+@import "utils";
+@import "list";
+@import "forms";
+
+body {
+  background-color: #fff;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: 1.4;
+  color: $base-font-color;
+  overflow: hidden;
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $color-grey-975;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: $color-grey-925;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+
+.container {
+  padding: 0 20px;
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+input {
+  padding: .282rem .5rem;
+  border: solid 2px transparent;
+  font-family: $base-font-family;
+  line-height: $base-line-height;
+  font-size: 14px;
+  background-color: $color-grey-75;
+  border-radius: $base-border-radius;
+  width: 100%;
+  display: block;
+  transition: background-color 200ms ease, border-color 200ms ease;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: $color-primary;
+    background-color: $color-grey-25;
+  }
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: $color-grey-500;
+  margin: 0 0 5px 0;
+}
+
+.form-group {
+  margin-bottom: .8rem;
+}
